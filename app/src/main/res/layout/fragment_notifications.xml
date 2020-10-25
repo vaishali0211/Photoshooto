@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".view.fragment.profile.ProfileFragment">
+
+
+
+    <View
+        android:id="@+id/mobile_navigation"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/navigation"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="18dp"
+        android:background="@drawable/logo"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="15.21dp"-->
+<!--        android:layout_height="7.12dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="232.46dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="-10.82dp"-->
+<!--        android:text="Home"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textAppearance="@style/home"-->
+<!--        android:gravity="top"-->
+<!--        android:background="@drawable/hme"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="23.95dp"-->
+<!--        android:layout_height="7.12dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="232.46dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="-10.82dp"-->
+<!--        android:text="About Us"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textAppearance="@style/about_us"-->
+<!--        android:gravity="top"-->
+<!--        android:textColor="bold"-->
+<!--        android:background="@drawable/about_us"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="27.54dp"-->
+<!--        android:layout_height="7.12dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="232.46dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="-10.82dp"-->
+<!--        android:text="Contact Us"-->
+<!--        android:textSize="18dp"-->
+<!--        android:textAppearance="@style/contact_us"-->
+<!--        android:gravity="top"-->
+<!--        android:textColor="bold"-->
+<!--        android:background="@drawable/contact_us"/>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="4">-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Rectangle 30 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:orientation="vertical">
+
+
+
+
+<!--                <View-->
+<!--                    android:id="@+id/whatsapp_im"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="250dp"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_alignParentTop="true"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:background="@drawable/group" />-->
+
+
+                <ImageView
+                    android:id="@+id/whatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="254dp"
+                    android:background="@drawable/whatsapp"
+                    android:foregroundGravity="top" />
+
+
+                <View
+                    android:id="@+id/shutterstock"
+                    android:layout_width="244.92dp"
+                    android:layout_height="143.23dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="65.1dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/shutterstock"/>
+
+                <ImageView
+                    android:id="@+id/rectangle"
+                    android:layout_width="match_parent"
+                    android:layout_height="254dp"
+                    android:background="@drawable/group"
+                    android:foregroundGravity="top" />
+
+            </LinearLayout>
+
+            <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="181.25dp"
+                    android:layout_height="120.83dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="59.9dp"
+                    android:background="@drawable/pic"
+                    />
+
+            <View
+                android:id="@+id/email"
+                android:layout_width="42.45dp"
+                android:layout_height="28.91dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="72.66dp"
+                android:layout_marginTop="201.04dp"
+                android:background="@drawable/email" />
+
+
+            <View
+                android:id="@+id/group_27"
+                android:layout_width="110.54dp"
+                android:layout_height="28.39dp"
+                android:layout_marginLeft="204.17dp"
+                android:layout_marginTop="201.56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/group_27"
+                />
+
+
+<!--            <View-->
+<!--                android:id="@+id/text"-->
+<!--                android:layout_width="214.6dp"-->
+<!--                android:layout_height="44dp"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentLeft="true"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:layout_marginLeft="50dp"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:layout_marginEnd="100dp"-->
+<!--                android:text="Pic of the Day"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:background="@drawable/pink" />-->
+
+            <TextView
+                android:id="@+id/photos"
+                android:layout_width="110.94dp"
+                android:layout_height="20.83dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="122.14dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="281.77dp"
+                android:textSize="18dp"
+                android:textAppearance="@style/top_10_phot"
+                android:gravity="center"
+                android:background="@drawable/photos"/>
+
+                <View
+                    android:id="@+id/group_7"
+                    android:layout_width="312.24dp"
+                    android:layout_height="9.64dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="35.68dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="390.1dp"
+                    android:background="@drawable/view_0" />
+
+
+                <ImageView
+                    android:id="@+id/rectangle_28"
+                    android:layout_width="346.61dp"
+                    android:layout_height="93.49dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14.32dp"
+                    android:layout_marginTop="316.15dp"
+                    android:background="@drawable/rectangle_28" />
+                <ImageView
+                    android:id="@+id/img_1"
+                    android:layout_width="91.15dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="35.68dp"
+                    android:layout_marginTop="334.64dp"
+                    android:background="@drawable/view" />
+
+                <ImageView
+                    android:id="@+id/rectangle_2"
+                    android:layout_width="91.15dp"
+                    android:layout_height="52.34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="143.23dp"
+                    android:layout_marginTop="332.29dp"
+                    android:background="@drawable/view_0" />
+
+
+                    <ImageView
+                        android:id="@+id/img_2"
+                        android:layout_width="91.15dp"
+                        android:layout_height="52.34dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="143.23dp"
+                        android:layout_marginTop="332.29dp"
+                        android:background="@drawable/view_1" />
+
+
+
+
+            <View
+                    android:id="@+id/bg"
+                    android:layout_width="375dp"
+                    android:layout_height="208.59dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0.26dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="483.07dp"
+                    android:background="@drawable/through" />
+
+            <TextView
+                android:id="@+id/cameras_on"
+                android:layout_width="98.44dp"
+                android:layout_height="20.83dp"
+                android:layout_below="@+id/bg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="43dp"
+                android:layout_marginEnd="193dp"
+                android:gravity="center"
+                android:text="@string/title_cameras_sale"
+                android:textAppearance="@style/cameras_ons"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <View
+                android:id="@+id/ggoz"
+                android:layout_width="91.15dp"
+                android:layout_height="53.39dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="38.02dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="787.5dp"
+                android:background="@drawable/com" />
+
+            <View
+                android:id="@+id/camera_1"
+                android:layout_width="92.71dp"
+                android:layout_height="54.17dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="140.36dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="787.5dp"
+                android:background="@drawable/camera1" />
+
+            <View
+                android:id="@+id/camera_3"
+                android:layout_width="92.45dp"
+                android:layout_height="51.56dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="246.88dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="790.1dp"
+                android:background="@drawable/camera_3" />
+
+                <ImageView
+                    android:id="@+id/img_3"
+                    android:layout_width="91.15dp"
+                    android:layout_height="52.34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="248.18dp"
+                    android:layout_marginTop="332.29dp"
+                    android:background="@drawable/view_0" />
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <View
+                android:id="@+id/footer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/rectangle" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
